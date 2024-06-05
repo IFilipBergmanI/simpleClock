@@ -24,7 +24,7 @@ class App:
 
     def setup_window_icon(self):
         # Find image path
-        basedir = os.path.dirname(__file__)
+        basedir = os.path.dirname(os.path.dirname(__file__))
         path_to_icon = os.path.join(basedir, os.path.join("images", "clock.png"))
 
         # Set the icon
