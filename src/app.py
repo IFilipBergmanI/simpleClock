@@ -1,7 +1,7 @@
 import os
 
 import tkinter as tk
-from clockLabel import ClockLabel
+from src.clockLabel import ClockLabel
 
 
 class App:
